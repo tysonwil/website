@@ -25,9 +25,8 @@ export const RESUME_DATA = {
   location: "San Francisco, California",
   locationLink: "https://www.google.com/maps/place/San+Francisco",
   about:
-    "An engineering / product leader in the mobile space.",
-  summary:
-    "With a decade of startup experience, I’ve been at the forefront of mobile technology. Now, as Head of Mobile at Heirloom, I’m developing a cutting-edge blockchain-enabled identity platform. My goal is to create intuitive, user-friendly experiences that bring the benefits of Web3 to everyday users. From verifiable credentials to seamless on-chain integration, I’m focused on making advanced digital identity solutions practical and accessible.",
+    "An engineering / product leader in the mobile and blockchain space.",
+  summary: "Seasoned engineering leader with over a decade of experience in startups, specializing in mobile and blockchain technologies. From founding engineer to director, I excel at transforming innovative ideas into cutting-edge products, with a focus on building best-in-class mobile experiences and pioneering solutions in identity and credential management.",
   avatarUrl: "https://media.licdn.com/dms/image/D5603AQEKTFJHIkb3LA/profile-displayphoto-shrink_400_400/0/1671211157451?e=1727308800&v=beta&t=apsRmtTXr89bL2cP_rmEdrGPdcPYAUv0yhEjUNWKINQ",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -63,35 +62,35 @@ export const RESUME_DATA = {
     {
       company: "Heirloom",
       link: "https://heirloom.io",
-      badges: ["Remote"],
-      title: "Head of Mobile",
+      badges: ["Founding engineer"],
+      title: "Director of Engineering",
       logo: ConsultlyLogo,
       start: "2022",
       end: null,
       description:
-        "Founding engineer. Leading the development of the best in class verifiable credential wallet",
+        "Founding engineer leading development of a verifiable credential wallet. Driving mobile engineering and product strategy for blockchain-enabled identity solutions.",
     },
     {
       company: "Bright",
       link: "https://variety.com/2021/digital/news/bright-live-video-events-celebrities-1234965976/",
-      badges: ["Remote"],
+      badges: ["Founding engineer"],
       title: "Engineering and Product Manager",
       logo: ParabolLogo,
       start: "2021",
       end: "2022",
       description:
-        "Founding engineer. Responsible for a team of 5 engineers, building our iOS and macOS clients. Probably the first, multiplatform, SwiftUI video conferencing app in the world. I also acted as the product manager.",
+        "Led team of 5 engineers building iOS and macOS clients. Developed pioneering multiplatform SwiftUI video conferencing app while also managing product.",
     },
     {
       company: "Verizon",
       link: "https://www.verizon.com",
-      badges: ["Remote"],
+      badges: [],
       title: "Staff Software Engineer",
       logo: ClevertechLogo,
       start: "2021",
       end: "2021",
       description:
-        "I stayed around for a few months after the acqisition before getting the startup itch again.",
+        "Facilitated post-acquisition integration of BlueJeans technology into Verizon's ecosystem.",
     },
     {
       company: "BlueJeans",
@@ -102,17 +101,17 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2020",
       description:
-        "Built award winning, enterprise video conferencing platforms for iOS and macOS. Acquired by Verizon in April 2022",
+        "Developed award-winning enterprise video conferencing platforms for iOS and macOS. Company acquired by Verizon in 2022.",
     },
     {
       company: "MixBit",
       link: "https://en.wikipedia.org/wiki/MixBit",
-      badges: [],
+      badges: ["Founding engineer"],
       title: "Software Engineer",
       logo: NSNLogo,
       start: "2015",
       end: "2018",
-      description: "Partnered with YouTube cofounder Chad Hurley to build a bunch of different products focused around WebRTC. Our consumer video chat app was acquired by BlueJeans in 2018.",
+      description: "Collaborated with YouTube cofounder on WebRTC-based products. Developed video chat app acquired by BlueJeans in 2018.",
     },
     {
       company: "Applidium",
@@ -122,7 +121,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "2014",
       end: "2014",
-      description: "Interned at a Paris based firm where I learned all about iOS development",
+      description: "Gained foundational iOS development experience at Paris-based firm.",
     },
   ],
   skills: [
