@@ -89,7 +89,7 @@ export default function WaitlistPage() {
             </div>
             <h2 className="text-2xl font-bold mb-2">Success</h2>
             <p className="text-gray-500 mb-6">
-              Welcome aboard! You've successfully joined our waitlist
+              Welcome aboard! You&#39;ve successfully joined our waitlist
             </p>
             <button
               onClick={() => setShowConfirmation(false)}
