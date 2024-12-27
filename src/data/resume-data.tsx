@@ -147,7 +147,7 @@ export const RESUME_DATA = {
         "BIP-39",
       ],
       description:
-        "The best mobile wallet for verifiable credentials",
+        "The best mobile wallet for verifiable credentials.",
       logo: ParabolLogo,
       link: {
         label: "heirloom.io",
@@ -202,7 +202,7 @@ export const RESUME_DATA = {
       title: "MixBit",
       techStack: ["Lead Engineer", "Swift", "Objective-C"],
       description:
-        "An automated, collaborative video editor built in collaboration with Chad Hurley",
+        "An automated, collaborative video editor built in collaboration with Chad Hurley.",
       logo: JarockiMeLogo,
       link: {
         label: "techcrunch.com",
@@ -213,7 +213,7 @@ export const RESUME_DATA = {
       title: "Meal Diary",
       techStack: ["Side Project", "GPT-4", "iMessage", "Swift"],
       description:
-        "An iMessage nutritional coach to track your daily meals",
+        "An iMessage nutritional coach to track your daily meals.",
       logo: Minimal,
       link: {
         label: "techcrunch.com",
