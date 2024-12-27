@@ -25,8 +25,8 @@ export const RESUME_DATA = {
   location: "San Francisco, California",
   locationLink: "https://www.google.com/maps/place/San+Francisco",
   about:
-    "An engineering / product leader in the mobile and blockchain space.",
-  summary: "Seasoned engineering leader with over a decade of experience in startups, specializing in mobile and blockchain technologies. From founding engineer to director, I excel at transforming innovative ideas into cutting-edge products, with a focus on building best-in-class mobile experiences and pioneering solutions in identity and credential management.",
+    "An engineering / product leader in the mobile, video, and blockchain space.",
+  summary: "Seasoned engineering leader with over a decade of experience in startups, specializing in mobile, video, and blockchain technologies. From founding engineer to director, I excel at transforming innovative ideas into cutting-edge products, with a focus on building best-in-class mobile experiences.",
   avatarUrl: "/avatar.PNG",
   personalWebsiteUrl: "https://tysonwil.com",
   contact: {
