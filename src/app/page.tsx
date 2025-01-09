@@ -125,7 +125,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs print:text-[10px]">
+                <CardContent className="mt-2 text-xs print:text-[10px] whitespace-pre-line">
                   {work.description}
                 </CardContent>
               </Card>
@@ -156,12 +156,24 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
+          <div className="flex flex-col gap-4">
+            {RESUME_DATA.skills.map((skillCategory) => {
               return (
-                <Badge className="print:text-[10px]" key={skill}>
-                  {skill}
-                </Badge>
+                <div key={skillCategory.category} className="flex flex-col gap-2">
+                  <h3 className="text-sm font-semibold">{skillCategory.category}</h3>
+                  <div className="flex flex-wrap gap-1">
+                    {skillCategory.skills.map((skill) => {
+                      return (
+                        <Badge 
+                          className={`px-1.5 py-0.5 text-[10px] font-mono text-muted-foreground print:text-[8px] ${skillCategory.color}`} 
+                          key={skill}
+                        >
+                          {skill}
+                        </Badge>
+                      );
+                    })}
+                  </div>
+                </div>
               );
             })}
           </div>
